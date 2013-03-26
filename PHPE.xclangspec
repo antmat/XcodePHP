@@ -532,6 +532,7 @@
 		Syntax = {
 			StartChars = ieswfctdb;
 			Match = (
+				"(else)",
 				"((else(\\s+)?)?if|switch|while|for(each)?|catch)(\\s+)?\\(",
 				"(case|throw)\\s",
 				"(else|default)(\\s+)?:",
